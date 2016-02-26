@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#thepage{
+	position: relative;
+	width: 100%;
+}
+#top_con{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+}
+
+.op_btn{
+	display: inline-block;
+	float: right;
+    width:20px;
+    height:20px;
+    cursor:pointer;
+    background-color: white;
+    background-image: url(delete.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    font-weight:bold;
+    /*font-family: Microsoft Yahei, Arial;*/
+}
+
+#canvas{
+    display:block;
+    position: absolute;
+    right: 0;
+	top: 10;	
+	/*width: 90%;*/
+}
+
+.op_btn:hover{
+    background-color:#def;
+}
+.clearfix{
+    clear:both;
+}
+
+#foot{
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 96%;
+}
+/*颜料，橡皮擦，圆圈*/
+.color_btn,.cleaning,.cir{
+	display: inline-block;
+    width:15px;
+    height:40px;
+    cursor:pointer;
+}
+.color_btn:hover{
+    border: 3px solid violet;
+    
+}
+
+.color_btn_selected{
+    border: 3px solid blueviolet;
+}
+#black_btn{
+    background-color: black;
+}
+#blue_btn{
+    background-color: blue;
+}
+#green_btn{
+    background-color: green;
+}
+#red_btn{
+    background-color: red;
+}
+#orange_btn{
+    background-color: orange;
+}
+.cleaning{
+
+	background-image: url(icons/clean.png);
+    background-repeat: no-repeat;
+    background-size: 25px 45px;
+    background-position: 0,0;
+
+}
+
+
+.controller{
+	position: relative;
+}
+.cir{
+	background-repeat: no-repeat;
+    background-position-x: center;
+	background-position-y: center;
+}
+#small_cir{
+	/*border: 1px solid red;*/
+	background-image: url(icons/boder_circle.png);
+	background-size: 10px 10px;
+}
+#middle_cir{
+	/*border: 2px solid red;*/
+	background-image: url(icons/boder_circle.png);
+	background-size: 15px 15px;
+}
+#ring{
+	/*border: 3px solid red;*/
+	background-image: url(icons/ring.png);
+	background-size: 17px 17px;
+}
+
+
+#copy,#download,#more{
+	position: absolute;
+	width: 35px;
+	height: 20px;
+	cursor:pointer;
+    /*border: 1px solid red;*/
+    background-size: 25px 35px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    display: inline-block;
+	
+}
+#copy{
+	background-image: url(icons/copy.png);
+	height: 30px;
+	top: 15px;
+	right: 85px;
+}
+#download{
+	background-image: url(icons/down_big.png);
+	height: 30px;
+	top: 15px;
+	right: 45px;
+}
+#more{
+    background-image: url(more.png);
+	position: absolute;
+	top: 20px;
+	right: 5px;
+}
+
+
+
